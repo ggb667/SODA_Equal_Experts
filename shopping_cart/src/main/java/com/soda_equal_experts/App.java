@@ -10,10 +10,10 @@ import java.io.IOException;
 public class App {
     
     /** 
-     * @param args
+     * @param ignored
      * @throws IOException
      */
-    public static void main(final String[] args) throws IOException {
+    public static void main(final String[] ignored) throws IOException {
         final String currentPath = new java.io.File(".").getCanonicalPath();
         System.out.println("Current dir:" + currentPath + "\n");
 
